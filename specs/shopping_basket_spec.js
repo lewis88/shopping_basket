@@ -2,6 +2,9 @@ var basket = require( '../shopping_basket' );
 var assert = require( 'chai' ).assert;
 
 describe( 'Basket', function(){
+  beforeEach(fucntion(){
+    basket.empty();
+  })
 
   it('Checking Basket is Empty', function(){
     assert.equal(0, basket.itemArray.length);

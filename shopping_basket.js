@@ -1,13 +1,15 @@
 // The Shopping Stock
 var veg = { name: veg, price: 10.00, deals: '1for2' };
 var meat = { name: meat, price: 30.00, deals: 'None' };
-var bleach = { price: 10.00, deals: '2for3' };
-var bread = { price: 10.00, deals: '1for2' };
-var fruit = { price: 5.00, deals: 'None' };
-var alcohol = { price: 5.00, deals: '1for2' };
-var tobacco = { price: 10.00, deals: '2for3' };
+var bleach = { name: bleach, price: 10.00, deals: '2for3' };
+var bread = { name: bread, price: 10.00, deals: '1for2' };
+var fruit = { name: fruit, price: 5.00, deals: 'None' };
+var alcohol = { name: alcohol, price: 5.00, deals: '1for2' };
+var tobacco = { name: tobacco, price: 10.00, deals: '2for3' };
 
 var shoppingBasket = {
+
+  stockArray = [ veg, meat, bleach, bread, fruit, alcohol, tobacco ],
 
   itemArray: [],
 
